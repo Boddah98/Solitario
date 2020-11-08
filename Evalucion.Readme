@@ -1,0 +1,13 @@
+Objetivo
+Desarrollar una aplicación que permita la generación y resolución, tanto manual como automática, del juego de cartas Solitario mediante la utilización de diversas técnicas algorítmicas estudiadas en el curso.
+
+Implementación
+Lineamientos para la construcción del sistema:
+
+1. Debe ser una aplicación completamente gráfica, es decir, debe utilizar componentes gráficos de interacción con el usuario en todas sus partes. Es muy importante que se le ofrezcan al usuario datos sobre el proceso de generación de elementos en momentos en que el programa esté haciendo trabajo por sí solo y que el usuario no pueda realizar mayores acciones con el programa.
+2. Construir una bitácora de acciones del programa, que sea visible en todo momento y que recopile tanto las acciones manuales y automáticas realizadas en el programa.
+3. Al iniciar recibe únicamente un número, que es la cantidad de diferentes reparticiones aleatorias de la baraja que se deben generar, debe comprobarse la aleatoriedad de la repartición y que no exista un patrón en la forma en la que se generan.
+4. El programa genera, guarda, resuelve y clasifica todas las reparticiones de barajas generadas.
+5. Para la clasificación debe utilizar al menos 5 categorías según criterios que escoja el grupo (tales como por dificultad, cantidad de movimientos, tiempo de resolución, u otra característica en la resolución).
+6. Se le permite al usuario seleccionar y jugar, sin ninguna ayuda automatizada, alguna de las reparticiones generadas.
+7. En cualquier momento de la resolución se puede solicitar la resolución automática, momento en el que el programa procede a hacer la resolución sin participación del usuario.
